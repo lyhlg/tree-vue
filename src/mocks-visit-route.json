@@ -1,0 +1,77 @@
+{
+  "key": "visitRoute",
+  "type": "label",
+  "label": "내원 경로",
+  "children": [
+    {
+      "key": "portal",
+      "label": "포털 사이트",
+      "type": "checkbox",
+      "children": [
+        { "key": "naver", "type": "checkbox", "label": "네이버", "children": null },
+        { "key": "daum", "type": "checkbox", "label": "다음", "children": null },
+        { "key": "google", "type": "checkbox", "label": "구글", "children": null },
+        { "key": "keyword", "type": "input", "label": "검색시 키워드", "children": null}
+      ]
+    },
+    {
+      "key": "sns",
+      "label": "SNS",
+      "type": "checkbox",
+      "children": [
+        { "key": "facebook", "type": "checkbox", "label": "페이스북", "children": null },
+        { "key": "instagram", "type": "checkbox", "label": "인스타그램", "children": null },
+        { "key": "youtube", "type": "checkbox", "label": "유튜브", "children": null }
+      ]
+    },
+    {
+      "key": "app",
+      "label": "어플",
+      "type": "checkbox",
+      "children": [
+        { "key": "gangnamunni", "type": "checkbox", "label": "강남언니", "children": null },
+        { "key": "babitalk", "type": "checkbox", "label": "바비톡", "children": null },
+        { "key": "gooddoc", "type": "checkbox", "label": "굿닥", "children": null },
+        { "key": "yeoshin", "type": "checkbox", "label": "여신티켓", "children": null }
+      ]
+    },
+    {
+      "key": "cafe",
+      "label": "카페",
+      "type": "checkbox",
+      "children": null
+    },
+    {
+      "key": "blog",
+      "label": "블로그",
+      "type": "checkbox",
+      "children": null
+    },
+    {
+      "key": "advertising",
+      "label": "옥외광고",
+      "type": "checkbox",
+      "children": [
+        { "key": "subway", "type": "checkbox", "label": "지하철", "children": null },
+        { "key": "bus", "type": "checkbox", "label": "버스", "children": null },
+        { "key": "sign", "type": "checkbox", "label": "옥외간판", "children": null }
+      ]
+    },
+    {
+      "key": "recommend",
+      "label": "옥외광고",
+      "type": "checkbox",
+      "children": [
+        { "key": "friends", "type": "checkbox", "label": "지인", "children": null },
+        { "key": "staff", "type": "checkbox", "label": "직원", "children": null },
+        { "key": "etc", "type": "checkbox", "label": "그 외", "children": null }
+      ]
+    },
+    {
+      "key": "etc",
+      "label": "기타",
+      "type": "input",
+      "children": null
+    }
+  ]
+}

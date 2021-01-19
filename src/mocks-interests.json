@@ -1,0 +1,65 @@
+{
+  "key": "interests",
+  "label": "관심 분야",
+  "type": "label",
+  "children": [
+    {
+      "key": "skin",
+      "label": "피부",
+      "type": "checkbox",
+      "children": [
+        { "key": "flushing", "type": "checkbox", "label": "홍조", "children": null },
+        { "key": "pore", "type": "checkbox", "label": "모공", "children": null },
+        { "key": "lifting", "type": "checkbox", "label": "리프팅", "children": null },
+        { "key": "skinBooster", "type": "checkbox", "label": "스킨부스터", "children": null },
+        { "key": "whitening", "type": "checkbox", "label": "미백", "children": null },
+        { "key": "scar", "type": "checkbox", "label": "흉터", "children": null },
+        { "key": "acne", "type": "checkbox", "label": "여드름", "children": null }
+      ]
+    },
+    {
+      "key": "petit",
+      "label": "쁘띠",
+      "type": "checkbox",
+      "children": [
+        {
+          "key": "filler",
+          "label": "필러",
+          "type": "checkbox",
+          "children": [
+            { "key": "forehead", "type": "checkbox", "label": "이마", "children": null },
+            { "key": "temple", "type": "checkbox", "label": "관자", "children": null },
+            { "key": "underTheEyes", "type": "checkbox", "label": "눈밑", "children": null },
+            { "key": "frontClown", "type": "checkbox", "label": "앞광대", "children": null },
+            { "key": "nose", "type": "checkbox", "label": "코", "children": null },
+            { "key": "lips", "type": "checkbox", "label": "입술", "children": null }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "obesity",
+      "label": "비만",
+      "type": "checkbox",
+      "children": [
+        {
+          "key": "fatDivisionInjection",
+          "label": "지방분해주사",
+          "type": "checkbox",
+          "children": [
+            { "key": "AFatDivisionInjection", "type": "checkbox", "label": "A 지방주사", "children": null },
+            { "key": "BFatDivisionInjection", "type": "checkbox", "label": "B 지방주사", "children": null },
+            { "key": "CFatDivisionInjection", "type": "checkbox", "label": "C 지방주사", "children": null }
+          ]
+        },
+        { "key": "dietMedicinePrescription", "type": "checkbox", "label": "다이어트 약처방", "children": null }
+      ]
+    },
+    {
+      "key": "waxing",
+      "label": "제모",
+      "type": "checkbox",
+      "children": null
+    }
+  ]
+}

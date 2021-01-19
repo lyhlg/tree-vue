@@ -1,17 +1,34 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <h1>Vue Tree Browser</h1>
+    <Tree :node="root" :selected="selected" @change="handleNodeClick" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Tree from "./components/Tree";
+import mocksInterests from "./mocks-interests";
 
 export default {
-  name: "App",
   components: {
-    HelloWorld
+    Tree
+  },
+  data() {
+    return {
+      root: mocksInterests,
+      selected: []
+    };
+  },
+  methods: {
+    handleNodeClick({ key }) {
+      let newSelected = this.selected;
+      if (newSelected.includes(key)) {
+        newSelected.splice(newSelected.indexOf(key), 1);
+      } else {
+        newSelected.push(key);
+      }
+      this.selected = newSelected;
+    }
   }
 };
 </script>
@@ -24,5 +41,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  text-align: center;
+  margin: 0 auto;
 }
 </style>
