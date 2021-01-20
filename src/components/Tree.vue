@@ -50,7 +50,6 @@
     </div>
   </div>
 </template>
-// :class="!node.children ? 'leaf-node-wrapper' : ''"
 
 <script>
 export default {
@@ -132,8 +131,7 @@ export default {
   font-weight: bold;
 }
 
-/* .expanded >  */
-.leaf-node-final-group {
+.expanded > .leaf-node-final-group {
   display: flex;
 }
 
