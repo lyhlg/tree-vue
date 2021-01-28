@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Vue Tree Browser</h1>
+    <h3>version: 0.0.1</h3>
     <Tree :node="root" :selected="selected" @change="handleNodeClick" />
   </div>
 </template>
